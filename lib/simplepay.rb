@@ -12,7 +12,7 @@ module Simplepay
   mattr_accessor :account_id
 
   mattr_accessor :use_sandbox
-  @@use_sandbox = true
+  @@use_sandbox = false
 
   def self.use_sandbox?
     @@use_sandbox
